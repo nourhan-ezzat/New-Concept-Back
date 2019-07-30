@@ -12,4 +12,3 @@ mongoose.connect(uri,
 mongoose.connection.on("error", err => {
     console.log(`DB connection error: ${err.message}`);
 });
-
